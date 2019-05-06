@@ -2,14 +2,14 @@ body{text-align: center;}
 svg {  max-width: 100%; max-height: 99vh;}
 
 
-@keyframes shipy {
+/* @keyframes shipy {
 	0% {
 		transform: translateY(0)
 	}
 	45% {
 		transform: translateY(60px)
 	}
-}
+} */
 
 @keyframes ufo {
 	0% {
@@ -475,4 +475,25 @@ svg {  max-width: 100%; max-height: 99vh;}
 
 #galinv.svgmate #Cloud2 {
 	transform-origin: 450px 385px
+}
+
+
+/* new code */
+
+
+.button {
+	padding: 10px 20px;
+	border: 2px solid red;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.button:hover,
+.button:focus {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.button:active {
+	opacity: 0.5;
 }

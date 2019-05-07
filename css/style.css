@@ -1,5 +1,12 @@
-body{text-align: center;}
-svg {  max-width: 100%; max-height: 99vh;}
+/* body{
+	text-align: center;
+	border: 1px solid grey;
+}
+*/
+
+svg {  
+	min-width: 900px;
+}
 
 
 /* @keyframes shipy {

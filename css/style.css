@@ -2,14 +2,14 @@ body{text-align: center;}
 svg {  max-width: 100%; max-height: 99vh;}
 
 
-@keyframes shipy {
+/* @keyframes shipy {
 	0% {
 		transform: translateY(0)
 	}
 	45% {
 		transform: translateY(60px)
 	}
-}
+} */
 
 @keyframes ufo {
 	0% {
@@ -166,32 +166,32 @@ svg {  max-width: 100%; max-height: 99vh;}
 	}
 }
 
-#galinv.svgmate .shipy {
+  .shipy {
 	animation-name: shipy;
 	animation-timing-function: ease-in-out
 }
 
-#galinv.svgmate #Window,
-#galinv.svgmate .shipy,
-#galinv.svgmate .ufo {
+  #Window,
+  .shipy,
+  .ufo {
 	animation-iteration-count: infinite;
 	animation-duration: 2.68s
 }
 
-#galinv.svgmate .ufo {
+  .ufo {
 	transform-origin: 312.8px 175.2px;
 	animation-name: ufo
 }
 
-#galinv.svgmate #Window {
+  #Window {
 	animation-name: ufowin;
 	animation-timing-function: ease-in-out
 }
 
-#galinv.svgmate .beams,
-#galinv.svgmate .beams2,
-#galinv.svgmate .themoon,
-#galinv.svgmate .winscale {
+  .beams,
+  .beams2,
+  .themoon,
+  .winscale {
 	animation-name: ufowinscale;
 	animation-iteration-count: infinite;
 	animation-duration: 2.68s;
@@ -199,32 +199,32 @@ svg {  max-width: 100%; max-height: 99vh;}
 	transform-origin: 312.8px
 }
 
-#galinv.svgmate .beams,
-#galinv.svgmate .beams2,
-#galinv.svgmate .themoon {
+  .beams,
+  .beams2,
+  .themoon {
 	animation-name: beamfront;
 	transform-origin: 312.8px 175.2px
 }
 
-#galinv.svgmate .beams2,
-#galinv.svgmate .themoon {
+  .beams2,
+  .themoon {
 	animation-name: beamfront2;
 	transform-origin: 312.8px 185.2px
 }
 
-#galinv.svgmate .themoon {
+  .themoon {
 	animation-name: moonwalk;
 	animation-duration: 2.64s;
 	animation-timing-function: ease-out;
 	transform-origin: 626px 192px
 }
 
-#galinv.svgmate .star1,
-#galinv.svgmate .star2,
-#galinv.svgmate .star3,
-#galinv.svgmate .star4,
-#galinv.svgmate .star5,
-#galinv.svgmate .star6 {
+  .star1,
+  .star2,
+  .star3,
+  .star4,
+  .star5,
+  .star6 {
 	animation-name: starblink;
 	animation-iteration-count: infinite;
 	animation-duration: 2.64s;
@@ -234,46 +234,46 @@ svg {  max-width: 100%; max-height: 99vh;}
 	opacity: 0
 }
 
-#galinv.svgmate .star2,
-#galinv.svgmate .star3,
-#galinv.svgmate .star4,
-#galinv.svgmate .star5,
-#galinv.svgmate .star6 {
+  .star2,
+  .star3,
+  .star4,
+  .star5,
+  .star6 {
 	transform-origin: 125.8px 315.75px;
 	animation-delay: .28s
 }
 
-#galinv.svgmate .star3,
-#galinv.svgmate .star4,
-#galinv.svgmate .star5,
-#galinv.svgmate .star6 {
+  .star3,
+  .star4,
+  .star5,
+  .star6 {
 	transform-origin: 713.65px 178.1px;
 	animation-delay: .84s
 }
 
-#galinv.svgmate .star4,
-#galinv.svgmate .star5,
-#galinv.svgmate .star6 {
+  .star4,
+  .star5,
+  .star6 {
 	transform-origin: 732px 418.85px;
 	animation-delay: 1.36s
 }
 
-#galinv.svgmate .star5,
-#galinv.svgmate .star6 {
+  .star5,
+  .star6 {
 	transform-origin: 168.3px 194.7px;
 	animation-delay: 1.64s
 }
 
-#galinv.svgmate .star6 {
+  .star6 {
 	transform-origin: 552.1px 174.7px;
 	animation-delay: 2.16s
 }
 
-#galinv.svgmate #LaserLine_1,
-#galinv.svgmate #LaserLine_2,
-#galinv.svgmate #LaserLine_3,
-#galinv.svgmate #LaserLine_4,
-#galinv.svgmate #LaserLine_5 {
+  #LaserLine_1,
+  #LaserLine_2,
+  #LaserLine_3,
+  #LaserLine_4,
+  #LaserLine_5 {
 	animation-name: shootingstar;
 	animation-iteration-count: infinite;
 	animation-duration: 2.64s;
@@ -284,33 +284,33 @@ svg {  max-width: 100%; max-height: 99vh;}
 	animation-delay: .12s
 }
 
-#galinv.svgmate #LaserLine_2,
-#galinv.svgmate #LaserLine_3,
-#galinv.svgmate #LaserLine_4,
-#galinv.svgmate #LaserLine_5 {
+  #LaserLine_2,
+  #LaserLine_3,
+  #LaserLine_4,
+  #LaserLine_5 {
 	animation-delay: .24s
 }
 
-#galinv.svgmate #LaserLine_3,
-#galinv.svgmate #LaserLine_4,
-#galinv.svgmate #LaserLine_5 {
+  #LaserLine_3,
+  #LaserLine_4,
+  #LaserLine_5 {
 	animation-delay: .36s
 }
 
-#galinv.svgmate #LaserLine_4,
-#galinv.svgmate #LaserLine_5 {
+  #LaserLine_4,
+  #LaserLine_5 {
 	animation-delay: .48s
 }
 
-#galinv.svgmate #LaserLine_5 {
+  #LaserLine_5 {
 	animation-delay: .6s
 }
 
-#galinv.svgmate #LaserLine_10,
-#galinv.svgmate #LaserLine_6,
-#galinv.svgmate #LaserLine_7,
-#galinv.svgmate #LaserLine_8,
-#galinv.svgmate #LaserLine_9 {
+  #LaserLine_10,
+  #LaserLine_6,
+  #LaserLine_7,
+  #LaserLine_8,
+  #LaserLine_9 {
 	animation-name: shootingstar6;
 	animation-iteration-count: infinite;
 	animation-duration: 2.64s;
@@ -321,38 +321,38 @@ svg {  max-width: 100%; max-height: 99vh;}
 	animation-delay: .72s
 }
 
-#galinv.svgmate #LaserLine_10,
-#galinv.svgmate #LaserLine_7,
-#galinv.svgmate #LaserLine_8,
-#galinv.svgmate #LaserLine_9 {
+  #LaserLine_10,
+  #LaserLine_7,
+  #LaserLine_8,
+  #LaserLine_9 {
 	animation-name: shootingstar;
 	stroke-dasharray: 200;
 	stroke-dashoffset: 200;
 	animation-delay: .84s
 }
 
-#galinv.svgmate #LaserLine_10,
-#galinv.svgmate #LaserLine_8,
-#galinv.svgmate #LaserLine_9 {
+  #LaserLine_10,
+  #LaserLine_8,
+  #LaserLine_9 {
 	animation-delay: .96s
 }
 
-#galinv.svgmate #LaserLine_10,
-#galinv.svgmate #LaserLine_9 {
+  #LaserLine_10,
+  #LaserLine_9 {
 	animation-delay: 1.08s
 }
 
-#galinv.svgmate #LaserLine_10 {
+  #LaserLine_10 {
 	animation-delay: 1.2s
 }
 
-#galinv.svgmate #LaserLine_11,
-#galinv.svgmate #LaserLine_12,
-#galinv.svgmate #LaserLine_13,
-#galinv.svgmate #LaserLine_14,
-#galinv.svgmate #LaserLine_15,
-#galinv.svgmate #LaserLine_16,
-#galinv.svgmate #LaserLine_17 {
+  #LaserLine_11,
+  #LaserLine_12,
+  #LaserLine_13,
+  #LaserLine_14,
+  #LaserLine_15,
+  #LaserLine_16,
+  #LaserLine_17 {
 	animation-name: shootingstar;
 	animation-iteration-count: infinite;
 	animation-duration: 2.64s;
@@ -363,52 +363,52 @@ svg {  max-width: 100%; max-height: 99vh;}
 	animation-delay: 1.32s
 }
 
-#galinv.svgmate #LaserLine_12,
-#galinv.svgmate #LaserLine_13,
-#galinv.svgmate #LaserLine_14,
-#galinv.svgmate #LaserLine_15,
-#galinv.svgmate #LaserLine_16,
-#galinv.svgmate #LaserLine_17 {
+  #LaserLine_12,
+  #LaserLine_13,
+  #LaserLine_14,
+  #LaserLine_15,
+  #LaserLine_16,
+  #LaserLine_17 {
 	animation-delay: 1.44s
 }
 
-#galinv.svgmate #LaserLine_13,
-#galinv.svgmate #LaserLine_14,
-#galinv.svgmate #LaserLine_15,
-#galinv.svgmate #LaserLine_16,
-#galinv.svgmate #LaserLine_17 {
+  #LaserLine_13,
+  #LaserLine_14,
+  #LaserLine_15,
+  #LaserLine_16,
+  #LaserLine_17 {
 	animation-delay: 1.56s
 }
 
-#galinv.svgmate #LaserLine_14,
-#galinv.svgmate #LaserLine_15,
-#galinv.svgmate #LaserLine_16,
-#galinv.svgmate #LaserLine_17 {
+  #LaserLine_14,
+  #LaserLine_15,
+  #LaserLine_16,
+  #LaserLine_17 {
 	animation-delay: 1.68s
 }
 
-#galinv.svgmate #LaserLine_15,
-#galinv.svgmate #LaserLine_16,
-#galinv.svgmate #LaserLine_17 {
+  #LaserLine_15,
+  #LaserLine_16,
+  #LaserLine_17 {
 	animation-delay: 1.8s
 }
 
-#galinv.svgmate #LaserLine_16,
-#galinv.svgmate #LaserLine_17 {
+  #LaserLine_16,
+  #LaserLine_17 {
 	animation-delay: 1.92s
 }
 
-#galinv.svgmate #LaserLine_17 {
+  #LaserLine_17 {
 	animation-delay: 2.02s
 }
 
-#galinv.svgmate #LaserLine_18,
-#galinv.svgmate #LaserLine_19,
-#galinv.svgmate #LaserLine_20,
-#galinv.svgmate #LaserLine_21,
-#galinv.svgmate #LaserLine_22,
-#galinv.svgmate #LaserLine_23,
-#galinv.svgmate #LaserLine_24 {
+  #LaserLine_18,
+  #LaserLine_19,
+  #LaserLine_20,
+  #LaserLine_21,
+  #LaserLine_22,
+  #LaserLine_23,
+  #LaserLine_24 {
 	animation-name: shootingstar;
 	animation-iteration-count: infinite;
 	animation-duration: 2.64s;
@@ -419,53 +419,56 @@ svg {  max-width: 100%; max-height: 99vh;}
 	animation-delay: 2.14s
 }
 
-#galinv.svgmate #LaserLine_19,
-#galinv.svgmate #LaserLine_20,
-#galinv.svgmate #LaserLine_21,
-#galinv.svgmate #LaserLine_22,
-#galinv.svgmate #LaserLine_23,
-#galinv.svgmate #LaserLine_24 {
+  #LaserLine_19,
+  #LaserLine_20,
+  #LaserLine_21,
+  #LaserLine_22,
+  #LaserLine_23,
+  #LaserLine_24 {
 	animation-delay: 2.26s
 }
 
-#galinv.svgmate #LaserLine_20,
-#galinv.svgmate #LaserLine_21,
-#galinv.svgmate #LaserLine_22,
-#galinv.svgmate #LaserLine_23,
-#galinv.svgmate #LaserLine_24 {
+  #LaserLine_20,
+  #LaserLine_21,
+  #LaserLine_22,
+  #LaserLine_23,
+  #LaserLine_24 {
 	animation-delay: 2.38s
 }
 
-#galinv.svgmate #LaserLine_21,
-#galinv.svgmate #LaserLine_22,
-#galinv.svgmate #LaserLine_23,
-#galinv.svgmate #LaserLine_24 {
+  #LaserLine_21,
+  #LaserLine_22,
+  #LaserLine_23,
+  #LaserLine_24 {
 	animation-delay: 2.5s
 }
 
-#galinv.svgmate #LaserLine_22,
-#galinv.svgmate #LaserLine_23,
-#galinv.svgmate #LaserLine_24 {
+  #LaserLine_22,
+  #LaserLine_23,
+  #LaserLine_24 {
 	animation-name: shootingstar22;
 	stroke-dasharray: 500;
 	stroke-dashoffset: 500;
 	animation-delay: 2.64s
 }
 
-#galinv.svgmate #LaserLine_23,
-#galinv.svgmate #LaserLine_24 {
+  #LaserLine_23,
+  #LaserLine_24 {
 	animation-name: shootingstar;
 	stroke-dasharray: 200;
 	stroke-dashoffset: 200;
 	animation-delay: 2.26s
 }
 
-#galinv.svgmate #LaserLine_24 {
+  #LaserLine_24 {
 	animation-delay: 2.64s
 }
 
-#galinv.svgmate #Cloud1,
-#galinv.svgmate #Cloud2 {
+  #Cloud1,
+	#Cloud2,
+	#Cloud1-2,
+	#Cloud2-2,
+	#Cloud2-3 {
 	animation-name: clouds;
 	animation-iteration-count: infinite;
 	animation-duration: 2.64s;
@@ -473,6 +476,29 @@ svg {  max-width: 100%; max-height: 99vh;}
 	transform-origin: 200px 425px
 }
 
-#galinv.svgmate #Cloud2 {
+	#Cloud2,
+	#Cloud2-2,
+	#Cloud2-3 {
 	transform-origin: 450px 385px
+}
+
+
+/* new code */
+
+
+.button {
+	padding: 10px 20px;
+	border: 2px solid red;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.button:hover,
+.button:focus {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.button:active {
+	opacity: 0.5;
 }

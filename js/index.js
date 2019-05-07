@@ -22,8 +22,8 @@ button.addEventListener('click', function() {
             translateX: 200,
             translateY: -2000,
             easing: 'easeInOutSine',
+            loop: 1
         });
-        console.log('here');
         isVisibleSaucer = false;
         button.innerHTML = 'Come back, dear flying saucer!'
     } else if(!isVisibleSaucer) {
